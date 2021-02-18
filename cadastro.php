@@ -52,11 +52,10 @@ $resultado_cadastro = mysqli_query($conn, $result_cadastro);
 
 if(mysqli_insert_id($conn)){
 	echo "<p style='color:green;'>Orçamento cadastrado com sucesso!</p>";
-	//header("Location: index.php");
+	
 }else{
 	echo "<p style='color:red;'>Orçamento não foi cadastrado!</p>";
-	//header("Location: index.php"); 
-
+	
 }
 }
 
